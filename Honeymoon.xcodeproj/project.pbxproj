@@ -11,6 +11,7 @@
 		1347CBD72722FB1C00316113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347CBD62722FB1C00316113 /* ContentView.swift */; };
 		1347CBD92722FB2100316113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1347CBD82722FB2100316113 /* Assets.xcassets */; };
 		1347CBDC2722FB2100316113 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1347CBDB2722FB2100316113 /* Preview Assets.xcassets */; };
+		1347CBE32723051000316113 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 1347CBE22723051000316113 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1347CBD62722FB1C00316113 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1347CBD82722FB2100316113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1347CBDB2722FB2100316113 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1347CBE22723051000316113 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		1347CBE42725AFE900316113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		1347CBD32722FB1C00316113 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				1347CBE42725AFE900316113 /* Info.plist */,
+				1347CBE22723051000316113 /* Sounds */,
 				1347CBD42722FB1C00316113 /* HoneymoonApp.swift */,
 				1347CBD62722FB1C00316113 /* ContentView.swift */,
 				1347CBD82722FB2100316113 /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1347CBE32723051000316113 /* Sounds in Resources */,
 				1347CBDC2722FB2100316113 /* Preview Assets.xcassets in Resources */,
 				1347CBD92722FB2100316113 /* Assets.xcassets in Resources */,
 			);
@@ -272,9 +278,10 @@
 				DEVELOPMENT_TEAM = 4V4WYXA8NM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honeymoon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -302,9 +309,10 @@
 				DEVELOPMENT_TEAM = 4V4WYXA8NM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honeymoon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
