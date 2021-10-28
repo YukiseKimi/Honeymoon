@@ -340,6 +340,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
 				DEVELOPMENT_TEAM = 4V4WYXA8NM;
+				DOCC_EX = /path/to/docc;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Honeymoon/Info.plist;
@@ -371,6 +372,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
 				DEVELOPMENT_TEAM = 4V4WYXA8NM;
+				DOCC_EX = /path/to/docc;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Honeymoon/Info.plist;
