@@ -10,6 +10,7 @@
 		1308CCF927304DF600A4E5E2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308CCF827304DF600A4E5E2 /* InfoView.swift */; };
 		1308CCFB27304F2C00A4E5E2 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308CCFA27304F2C00A4E5E2 /* TitleModifier.swift */; };
 		1308CCFE2730513B00A4E5E2 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308CCFD2730513B00A4E5E2 /* ButtonModifier.swift */; };
+		1308CD002730AAE100A4E5E2 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308CCFF2730AAE100A4E5E2 /* SymbolModifier.swift */; };
 		133637A927283EEB0084709F /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133637A827283EEB0084709F /* HeaderComponent.swift */; };
 		1347CBD52722FB1C00316113 /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347CBD42722FB1C00316113 /* HoneymoonApp.swift */; };
 		1347CBD72722FB1C00316113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347CBD62722FB1C00316113 /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 		1308CCF827304DF600A4E5E2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		1308CCFA27304F2C00A4E5E2 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		1308CCFD2730513B00A4E5E2 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		1308CCFF2730AAE100A4E5E2 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		133637A827283EEB0084709F /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		1347CBD12722FB1C00316113 /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1347CBD42722FB1C00316113 /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				1308CCFA27304F2C00A4E5E2 /* TitleModifier.swift */,
 				1308CCFD2730513B00A4E5E2 /* ButtonModifier.swift */,
+				1308CCFF2730AAE100A4E5E2 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -94,9 +97,9 @@
 		1347CBD32722FB1C00316113 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
-				1308CCFC27304F6B00A4E5E2 /* Modifier */,
-				133637A527283EAF0084709F /* Component */,
 				1347CBEB2725B75F00316113 /* View */,
+				133637A527283EAF0084709F /* Component */,
+				1308CCFC27304F6B00A4E5E2 /* Modifier */,
 				1347CBEA2725B65A00316113 /* Data */,
 				1347CBE72725B4F500316113 /* Model */,
 				1347CBE42725AFE900316113 /* Info.plist */,
@@ -220,6 +223,7 @@
 				1308CCF927304DF600A4E5E2 /* InfoView.swift in Sources */,
 				134E7BBB2727179C003CCC19 /* FooterView.swift in Sources */,
 				1308CCFB27304F2C00A4E5E2 /* TitleModifier.swift in Sources */,
+				1308CD002730AAE100A4E5E2 /* SymbolModifier.swift in Sources */,
 				1347CBEF2725BC3C00316113 /* HeaderView.swift in Sources */,
 				1347CBE62725B4ED00316113 /* HoneymoonModel.swift in Sources */,
 				1308CCFE2730513B00A4E5E2 /* ButtonModifier.swift in Sources */,
