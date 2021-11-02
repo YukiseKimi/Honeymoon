@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/// Honeymoon Model
 struct Destination {
     var place: String
     var country: String
